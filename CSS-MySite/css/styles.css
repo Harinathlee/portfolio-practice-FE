@@ -1,0 +1,32 @@
+
+h1{
+  color: #66BFBF;
+}
+
+h2{
+  color: #66BFBF;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 2%;
+}
+
+.Name{
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 2rem;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 20rem;
+}
