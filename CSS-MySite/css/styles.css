@@ -1,13 +1,28 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
 
-h1{
+h1 {
   color: #66BFBF;
 }
 
-h2{
+h2 {
   color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
-.top-container{
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
   background-color: #E4F9F5;
   position: relative;
   text-align: center;
@@ -15,18 +30,110 @@ h2{
   padding: 2%;
 }
 
-.Name{
+.Name {
   font-family: 'Sacramento', cursive;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
   right: 2rem;
 }
 
-.bottom-cloud{
+.bottom-cloud {
   position: absolute;
   left: 20rem;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+div {
+  display: block;
+}
+
+p {
+  line-height: 2;
+}
+
+.mypic {
+  width: 15%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.skill {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.Java {
+  width: 25%;
+  float: left;
+  padding: 2%;
+}
+
+.webtech {
+  width: 25%;
+  float: right;
+  padding: 2%;
+}
+
+.contact-me {
+  width: 40%;
+  margin: auto;
+}
+
+button {
+  font-size: 20px;
+  background-color: #11cdd4;
+  color: white;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px 10px 20px;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-style: none;
+}
+
+button:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
