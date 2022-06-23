@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body{
+    background-color: #c9c5e6;
+}
+.intro {
+  position: relative;
+  background-color: #3b2b60;
+  color: white;
+  min-height: 30rem;
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4%;
+    color: #FF7800;
+}
+.logo{
+    font-family: 'Kalam';
+}
+span{
+    color: #FF865E;
+}
+.introduction {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.introduction svg {
+  position: relative;
+  display: block;
+  width: calc(123% + 1.3px);
+  height: 120px;
+}
+
+.introduction .shape-fill {
+  fill: #c9c5e6;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .introduction svg {
+    width: calc(123% + 1.3px);
+    height: 83px;
+  }
+}
